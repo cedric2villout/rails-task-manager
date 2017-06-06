@@ -1,0 +1,9 @@
+<%= form_for(@todo) do |f| %>
+  <%= f.label :task %>
+  <%= f.text_field :task %>
+
+  <%= f.label :time %>
+  <%= f.text_field :time %>
+
+  <%= f.submit %>
+<% end %>
